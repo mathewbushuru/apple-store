@@ -2,10 +2,10 @@ import { ArrowUpRight, ChevronRight } from "lucide-react";
 
 export default function App() {
   return (
-    <main className="">
+    <main>
       {/* Hero  */}
-      <div className="">
-        <div className="flex flex-col gap-4 p-4 pt-20 sm:flex-row sm:items-center sm:justify-between sm:px-8 sm:pb-20 xl:px-32">
+      <div>
+        <div className="flex flex-col gap-4 p-4 pb-10 pt-20 sm:flex-row sm:items-center sm:justify-between sm:px-8 sm:pb-20 xl:px-32">
           <p className="pr-6 text-3xl font-semibold tracking-wide text-zinc-500 sm:max-w-screen-md sm:text-5xl sm:leading-[1.10]">
             <span className="text-foreground">Store. </span>
             The best way to buy the products you love.
@@ -50,7 +50,96 @@ export default function App() {
           </div>
         </div>
 
-        <div className="">Product Images</div>
+        <div className="scrollbar-hide flex gap-2 overflow-x-auto p-4 sm:gap-6 sm:px-8 xl:pl-32">
+          <div className="flex min-w-fit flex-col items-center gap-4">
+            <img src="/mac.png" alt="mac" className="h-20 cursor-pointer" />
+            <p className="font-semibold hover:cursor-pointer hover:underline">
+              Mac
+            </p>
+          </div>
+
+          <div className="flex min-w-fit flex-col items-center gap-4">
+            <img src="/iphone.png" alt="mac" className="h-20 cursor-pointer" />
+            <p className="font-semibold hover:cursor-pointer hover:underline">
+              iPhone
+            </p>
+          </div>
+
+          <div className="flex min-w-fit flex-col items-center gap-4">
+            <img src="/iPad.png" alt="mac" className="h-20 cursor-pointer" />
+            <p className="font-semibold hover:cursor-pointer hover:underline">
+              iPad
+            </p>
+          </div>
+
+          <div className="flex min-w-fit flex-col items-center gap-4">
+            <img src="/watch.png" alt="mac" className="h-20 cursor-pointer" />
+            <p className="font-semibold hover:cursor-pointer hover:underline">
+              Apple Watch
+            </p>
+          </div>
+
+          <div className="flex min-w-fit flex-col items-center gap-4">
+            <img
+              src="/vision-pro.png"
+              alt="mac"
+              className="h-20 cursor-pointer"
+            />
+            <p className="font-semibold hover:cursor-pointer hover:underline">
+              Apple Vision Pro
+            </p>
+          </div>
+
+          <div className="flex min-w-fit flex-col items-center gap-4">
+            <img src="/airpods.png" alt="mac" className="h-20 cursor-pointer" />
+            <p className="font-semibold hover:cursor-pointer hover:underline">
+              AirPods
+            </p>
+          </div>
+
+          <div className="flex min-w-fit flex-col items-center gap-4">
+            <img src="/airtags.png" alt="mac" className="h-20 cursor-pointer" />
+            <p className="font-semibold hover:cursor-pointer hover:underline">
+              AirTag
+            </p>
+          </div>
+
+          <div className="flex min-w-fit flex-col items-center gap-4">
+            <img src="/appletv.png" alt="mac" className="h-20 cursor-pointer" />
+            <p className="font-semibold hover:cursor-pointer hover:underline">
+              Apple TV 4K
+            </p>
+          </div>
+
+          <div className="flex min-w-fit flex-col items-center gap-4">
+            <img src="/homepod.png" alt="mac" className="h-20 cursor-pointer" />
+            <p className="font-semibold hover:cursor-pointer hover:underline">
+              HomePod
+            </p>
+          </div>
+
+          <div className="flex min-w-fit flex-col items-center gap-4">
+            <img
+              src="/accessories.png"
+              alt="mac"
+              className="h-20 cursor-pointer"
+            />
+            <p className="font-semibold hover:cursor-pointer hover:underline">
+              Accessories
+            </p>
+          </div>
+
+          <div className="flex min-w-fit flex-col items-center gap-4">
+            <img
+              src="/holiday-giftcards.png"
+              alt="mac"
+              className="h-20 cursor-pointer"
+            />
+            <p className="font-semibold hover:cursor-pointer hover:underline">
+              Apple Gift Card
+            </p>
+          </div>
+        </div>
       </div>
     </main>
   );
