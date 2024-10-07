@@ -14,7 +14,7 @@ export default function App() {
       {/* Hero  */}
       <div>
         <div className="flex flex-col gap-4 p-4 pb-10 pt-20 sm:flex-row sm:items-center sm:justify-between sm:px-8 sm:pb-20 xl:px-32">
-          <p className="pr-6 text-3xl font-semibold tracking-wide text-zinc-500 sm:max-w-screen-md sm:text-5xl sm:leading-[1.10]">
+          <p className="pr-6 text-3xl font-semibold tracking-wide text-zinc-500 sm:max-w-screen-md sm:text-[44px] sm:leading-[1.10] xl:text-5xl">
             <span className="text-foreground">Store. </span>
             The best way to buy the products you love.
           </p>
@@ -152,7 +152,7 @@ export default function App() {
 
       {/* Product cards  */}
       <div>
-        <p className="p-4 pb-2 text-2xl font-semibold leading-tight tracking-wide text-zinc-500 sm:px-8 sm:text-3xl sm:leading-[1.10] xl:px-32">
+        <p className="p-4 pb-2 text-2xl font-semibold leading-tight tracking-wide text-zinc-500 sm:px-8 sm:text-[28px] sm:leading-[1.10] xl:px-32 xl:text-3xl">
           <span className="text-foreground">The latest. </span>
           Take a look at what's new, right now.
         </p>
@@ -336,7 +336,7 @@ export default function App() {
 
       {/* Help Section  */}
       <div>
-        <p className="p-4 pb-2 text-2xl font-semibold leading-tight tracking-wide text-zinc-500 sm:px-8 sm:text-3xl sm:leading-[1.10] xl:px-32">
+        <p className="p-4 pb-2 text-2xl font-semibold leading-tight tracking-wide text-zinc-500 sm:px-8 sm:text-[28px] sm:leading-[1.10] xl:px-32 xl:text-3xl">
           <span className="text-foreground">Help is here. </span>
           Whenever and however you need it.
         </p>
@@ -437,7 +437,7 @@ export default function App() {
 
       {/* Why shop with us  */}
       <div>
-        <p className="p-4 pb-2 text-2xl font-semibold leading-tight tracking-wide text-zinc-500 sm:px-8 sm:text-3xl sm:leading-[1.10] xl:px-32">
+        <p className="p-4 pb-2 text-2xl font-semibold leading-tight tracking-wide text-zinc-500 sm:px-8 sm:text-[28px] sm:leading-[1.10] xl:px-32 xl:text-3xl">
           <span className="text-foreground">The Apple Store Difference. </span>
           Even more reasons to shop with us.
         </p>
@@ -500,10 +500,170 @@ export default function App() {
               <title>Apple</title>
               <path d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701" />
             </svg>
-            <p className="text-xl font-semibold sm:text-2xl mt-1 sm:mt-2">
-              <span className="text-amber-500">Customize</span>{" "}
-              your Mac and create your own style of Apple Watch.
+            <p className="mt-1 text-xl font-semibold sm:mt-2 sm:text-2xl">
+              <span className="text-amber-500">Customize</span> your Mac and
+              create your own style of Apple Watch.
             </p>
+          </div>
+        </div>
+      </div>
+
+      {/* Accessories  */}
+      <div>
+        <p className="p-4 pb-2 text-2xl font-semibold leading-tight tracking-wide text-zinc-500 sm:px-8 sm:text-[28px] sm:leading-[1.10] xl:px-32 xl:text-3xl">
+          <span className="text-foreground">Accessories. </span>
+          Essentials that pair perfectly with your favourite devices.
+        </p>
+
+        <div className="scrollbar-hide flex gap-4 overflow-x-auto p-4 pb-8 sm:gap-6 sm:p-8 xl:pl-32 xl:pr-24">
+          <div className="relative min-w-fit cursor-pointer transition-all duration-300 hover:scale-[1.02] hover:shadow-lg">
+            <img
+              src="/accessories.jpeg"
+              alt="Accessories"
+              className="h-[450px] w-[300px] rounded-2xl object-cover shadow-md sm:h-[500px] sm:w-[400px]"
+            />
+            <div className="absolute top-[5%] px-8 text-foreground xl:space-y-2">
+              <p className="text-xl font-semibold sm:text-3xl">
+                In with the new.
+              </p>
+              <p className="max-w-xs font-light leading-tight sm:text-lg">
+                Your favourite accessories. Now available in bold new colours
+                and innovative new features.
+              </p>
+            </div>
+          </div>
+
+          <div className="flex min-w-fit cursor-pointer flex-col items-center justify-between overflow-hidden rounded-2xl bg-white p-8 shadow-md transition-all duration-300 hover:scale-[1.02] hover:shadow-lg">
+            <img
+              src="/iphone16-pro-clear-case.jpeg"
+              alt="Accessories"
+              className="h-[250px] w-[200px] object-cover sm:mt-8 sm:h-[230px] sm:w-[230px]"
+            />
+            <div className="mt-4 w-[284px] text-foreground">
+              <p className="text-orange-600">New</p>
+              <p className="mt-0.5 h-12 text-lg font-semibold sm:text-xl">
+                iPhone 16 Pro Clear Case with MagSafe
+              </p>
+              <p className="mt-4 font-light">$49.00</p>
+            </div>
+          </div>
+
+          <div className="flex min-w-fit cursor-pointer flex-col items-center justify-between overflow-hidden rounded-2xl bg-white p-8 shadow-md transition-all duration-300 hover:scale-[1.02] hover:shadow-lg">
+            <img
+              src="/sport-loop.jpeg"
+              alt="Accessories"
+              className="h-[250px] w-[200px] object-cover sm:mt-8 sm:h-[230px] sm:w-[230px]"
+            />
+            <div className="mt-4 w-[284px] text-foreground">
+              <p className="text-orange-600">New</p>
+              <p className="mt-0.5 h-12 text-lg font-semibold sm:text-xl">
+                46mm Plum Sport Loop
+              </p>
+              <p className="mt-4 font-light">$49.00</p>
+            </div>
+          </div>
+
+          <div className="flex min-w-fit cursor-pointer flex-col items-center justify-between overflow-hidden rounded-2xl bg-white p-8 shadow-md transition-all duration-300 hover:scale-[1.02] hover:shadow-lg">
+            <img
+              src="/milanese-loop.jpeg"
+              alt="Accessories"
+              className="h-[250px] w-[200px] object-cover sm:mt-8 sm:h-[230px] sm:w-[230px]"
+            />
+            <div className="mt-4 w-[284px] text-foreground">
+              <p className="text-orange-600">New</p>
+              <p className="mt-0.5 h-12 text-lg font-semibold sm:text-xl">
+                49mm Black Titanium Milanese Loop - Medium
+              </p>
+              <p className="mt-4 font-light">$199.00</p>
+            </div>
+          </div>
+
+          <div className="flex min-w-fit cursor-pointer flex-col items-center justify-between overflow-hidden rounded-2xl bg-white p-8 shadow-md transition-all duration-300 hover:scale-[1.02] hover:shadow-lg">
+            <img
+              src="/silicone-case.jpeg"
+              alt="Accessories"
+              className="h-[250px] w-[200px] object-cover sm:mt-8 sm:h-[230px] sm:w-[230px]"
+            />
+            <div className="mt-4 w-[284px] text-foreground">
+              <p className="text-orange-600">New</p>
+              <p className="mt-0.5 h-12 text-lg font-semibold sm:text-xl">
+                iPhone 16 Silicone Case with MagSafe - Ultramarine
+              </p>
+              <p className="mt-4 font-light">$49.00</p>
+            </div>
+          </div>
+
+          <div className="flex min-w-fit cursor-pointer flex-col items-center justify-between overflow-hidden rounded-2xl bg-white p-8 shadow-md transition-all duration-300 hover:scale-[1.02] hover:shadow-lg">
+            <img
+              src="/finewoven-wallet.jpeg"
+              alt="Accessories"
+              className="h-[250px] w-[200px] object-cover sm:mt-8 sm:h-[230px] sm:w-[230px]"
+            />
+            <div className="mt-4 w-[284px] text-foreground">
+              <p className="text-orange-600">New</p>
+              <p className="mt-0.5 h-12 text-lg font-semibold sm:text-xl">
+                iPhone FineWoven Wallet with MagSafe - Deep Blue
+              </p>
+              <p className="mt-4 font-light">$59.00</p>
+            </div>
+          </div>
+
+          <div className="flex min-w-fit cursor-pointer flex-col items-center justify-between overflow-hidden rounded-2xl bg-white p-8 shadow-md transition-all duration-300 hover:scale-[1.02] hover:shadow-lg">
+            <img
+              src="/magsafe-charger.jpeg"
+              alt="Accessories"
+              className="h-[250px] w-[200px] object-cover sm:mt-8 sm:h-[230px] sm:w-[230px]"
+            />
+            <div className="mt-4 w-[284px] text-foreground">
+              <p className="text-orange-600">New</p>
+              <p className="mt-0.5 h-12 text-lg font-semibold sm:text-xl">
+                MagSafe Charger (1 m)
+              </p>
+              <p className="mt-4 font-light">$39.00</p>
+            </div>
+          </div>
+
+          <div className="flex min-w-fit cursor-pointer flex-col items-center justify-between overflow-hidden rounded-2xl bg-white p-8 shadow-md transition-all duration-300 hover:scale-[1.02] hover:shadow-lg">
+            <img
+              src="/airtag-ring.jpeg"
+              alt="Accessories"
+              className="h-[250px] w-[200px] object-cover sm:mt-8 sm:h-[230px] sm:w-[230px]"
+            />
+            <div className="mt-4 w-[284px] text-foreground">
+              <p className="text-orange-600">New</p>
+              <p className="mt-0.5 h-12 text-lg font-semibold sm:text-xl">
+                AirTag FineWoven Key Ring - Chartreuse
+              </p>
+              <p className="mt-4 font-light">$35.00</p>
+            </div>
+          </div>
+
+          <div className="flex min-w-fit cursor-pointer flex-col items-center justify-between overflow-hidden rounded-2xl bg-white p-8 shadow-md transition-all duration-300 hover:scale-[1.02] hover:shadow-lg">
+            <img
+              src="/pencil-pro.jpeg"
+              alt="Accessories"
+              className="h-[250px] w-[200px] object-cover sm:mt-8 sm:h-[230px] sm:w-[230px]"
+            />
+            <div className="mt-4 w-[284px] text-foreground">
+              <p className="text-orange-600">&nbsp;</p>
+              <p className="mt-0.5 h-12 text-lg font-semibold sm:text-xl">
+                Apple Pencil Pro
+              </p>
+              <p className="mt-4 font-light">$129.00</p>
+            </div>
+          </div>
+
+          <div className="relative min-w-fit cursor-pointer transition-all duration-300 hover:scale-[1.02] hover:shadow-lg">
+            <img
+              src="/accessories-explore.jpeg"
+              alt="Accessories"
+              className="h-[450px] w-[300px] rounded-2xl object-cover shadow-md sm:h-[500px] sm:w-[400px]"
+            />
+            <div className="absolute top-[10%] px-8 text-foreground xl:space-y-2">
+              <p className="text-xl font-semibold sm:text-3xl">
+                Explore all accessories
+              </p>
+            </div>
           </div>
         </div>
       </div>
