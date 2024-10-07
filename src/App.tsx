@@ -158,11 +158,11 @@ export default function App() {
         </p>
 
         <div className="scrollbar-hide flex gap-4 overflow-x-auto p-4 pb-8 sm:p-8 sm:pb-12 xl:gap-6 xl:pl-32">
-          <div className="relative min-w-fit cursor-pointer">
+          <div className="relative min-w-fit cursor-pointer overflow-hidden rounded-2xl shadow-md transition-all duration-300 hover:scale-[1.02] hover:shadow-lg">
             <img
               src="/iphone-16-pro.jpeg"
               alt="Iphone 16 Pro"
-              className="h-[450px] w-[300px] rounded-2xl object-cover shadow-md transition-all duration-300 hover:scale-[1.02] hover:shadow-lg sm:h-[500px] sm:w-[400px]"
+              className="h-[450px] w-[300px] object-cover sm:h-[500px] sm:w-[400px]"
             />
             <div className="absolute top-[10%] px-8 text-background xl:space-y-2">
               <p className="text-xl font-semibold xl:text-3xl">iPhone 16 Pro</p>
@@ -171,11 +171,11 @@ export default function App() {
             </div>
           </div>
 
-          <div className="relative min-w-fit cursor-pointer">
+          <div className="relative min-w-fit cursor-pointer overflow-hidden rounded-2xl shadow-md transition-all duration-300 hover:scale-[1.02] hover:shadow-lg">
             <img
               src="/watch-s10.jpeg"
               alt="Iphone 16 Pro"
-              className="h-[450px] w-[300px] rounded-2xl object-cover shadow-md transition-all duration-300 hover:scale-[1.02] hover:shadow-lg sm:h-[500px] sm:w-[400px]"
+              className="h-[450px] w-[300px] object-cover sm:h-[500px] sm:w-[400px]"
             />
             <div className="absolute top-[10%] px-8 text-foreground xl:space-y-2">
               <p className="text-xl font-semibold xl:text-3xl">
@@ -186,11 +186,11 @@ export default function App() {
             </div>
           </div>
 
-          <div className="relative min-w-fit cursor-pointer">
+          <div className="relative min-w-fit cursor-pointer overflow-hidden rounded-2xl shadow-md transition-all duration-300 hover:scale-[1.02] hover:shadow-lg">
             <img
               src="/iphone-16.jpeg"
               alt="Iphone 16 Pro"
-              className="h-[450px] w-[300px] rounded-2xl object-cover shadow-md transition-all duration-300 hover:scale-[1.02] hover:shadow-lg sm:h-[500px] sm:w-[400px]"
+              className="h-[450px] w-[300px] object-cover sm:h-[500px] sm:w-[400px]"
             />
             <div className="absolute top-[10%] px-8 text-background xl:space-y-2">
               <p className="text-xl font-semibold xl:text-3xl">iPhone 16</p>
@@ -199,11 +199,11 @@ export default function App() {
             </div>
           </div>
 
-          <div className="relative min-w-fit cursor-pointer">
+          <div className="relative min-w-fit cursor-pointer overflow-hidden rounded-2xl shadow-md transition-all duration-300 hover:scale-[1.02] hover:shadow-lg">
             <img
               src="/watch-ultra.jpeg"
               alt="Iphone 16 Pro"
-              className="h-[450px] w-[300px] rounded-2xl object-cover shadow-md transition-all duration-300 hover:scale-[1.02] hover:shadow-lg sm:h-[500px] sm:w-[400px]"
+              className="h-[450px] w-[300px] object-cover sm:h-[500px] sm:w-[400px]"
             />
             <div className="absolute top-[10%] px-8 text-background xl:space-y-2">
               <p className="text-xl font-semibold xl:text-3xl">
@@ -214,11 +214,11 @@ export default function App() {
             </div>
           </div>
 
-          <div className="relative min-w-fit cursor-pointer">
+          <div className="relative min-w-fit cursor-pointer overflow-hidden rounded-2xl shadow-md transition-all duration-300 hover:scale-[1.02] hover:shadow-lg">
             <img
               src="/airpods4.jpeg"
               alt="Iphone 16 Pro"
-              className="h-[450px] w-[300px] rounded-2xl object-cover shadow-md transition-all duration-300 hover:scale-[1.02] hover:shadow-lg sm:h-[500px] sm:w-[400px]"
+              className="h-[450px] w-[300px] object-cover sm:h-[500px] sm:w-[400px]"
             />
             <div className="absolute top-[10%] px-8 text-foreground xl:space-y-2">
               <p className="text-xl font-semibold xl:text-3xl">AirPods 4</p>
@@ -229,11 +229,11 @@ export default function App() {
             </div>
           </div>
 
-          <div className="relative min-w-fit cursor-pointer">
+          <div className="relative min-w-fit cursor-pointer overflow-hidden rounded-2xl shadow-md transition-all duration-300 hover:scale-[1.02] hover:shadow-lg">
             <img
               src="/airpods-pro2.jpeg"
               alt="Iphone 16 Pro"
-              className="h-[450px] w-[300px] rounded-2xl object-cover shadow-md transition-all duration-300 hover:scale-[1.02] hover:shadow-lg sm:h-[500px] sm:w-[400px]"
+              className="h-[450px] w-[300px] object-cover sm:h-[500px] sm:w-[400px]"
             />
             <div className="absolute top-[10%] px-8 text-background xl:space-y-2">
               <p className="text-xl font-semibold xl:text-3xl">AirPods Pro 2</p>
@@ -244,11 +244,11 @@ export default function App() {
             </div>
           </div>
 
-          <div className="relative min-w-fit cursor-pointer">
+          <div className="relative min-w-fit cursor-pointer overflow-hidden rounded-2xl shadow-md transition-all duration-300 hover:scale-[1.02] hover:shadow-lg">
             <img
               src="/airpods-max.jpeg"
               alt="Iphone 16 Pro"
-              className="h-[450px] w-[300px] rounded-2xl object-cover shadow-md transition-all duration-300 hover:scale-[1.02] hover:shadow-lg sm:h-[500px] sm:w-[400px]"
+              className="h-[450px] w-[300px] object-cover sm:h-[500px] sm:w-[400px]"
             />
             <div className="absolute top-[10%] px-8 text-foreground xl:space-y-2">
               <p className="text-xl font-semibold xl:text-3xl">AirPods Max</p>
@@ -259,11 +259,11 @@ export default function App() {
             </div>
           </div>
 
-          <div className="relative min-w-fit cursor-pointer">
+          <div className="relative min-w-fit cursor-pointer overflow-hidden rounded-2xl shadow-md transition-all duration-300 hover:scale-[1.02] hover:shadow-lg">
             <img
               src="/vision-pro.jpeg"
               alt="Iphone 16 Pro"
-              className="h-[450px] w-[300px] rounded-2xl object-cover shadow-md transition-all duration-300 hover:scale-[1.02] hover:shadow-lg sm:h-[500px] sm:w-[400px]"
+              className="h-[450px] w-[300px] object-cover sm:h-[500px] sm:w-[400px]"
             />
             <div className="text-foregound absolute top-[10%] px-8 xl:space-y-2">
               <p className="text-xl font-semibold xl:text-3xl">
@@ -276,11 +276,11 @@ export default function App() {
             </div>
           </div>
 
-          <div className="relative min-w-fit cursor-pointer">
+          <div className="relative min-w-fit cursor-pointer overflow-hidden rounded-2xl shadow-md transition-all duration-300 hover:scale-[1.02] hover:shadow-lg">
             <img
               src="/macbook-air.jpeg"
               alt="Iphone 16 Pro"
-              className="h-[450px] w-[300px] rounded-2xl object-cover shadow-md transition-all duration-300 hover:scale-[1.02] hover:shadow-lg sm:h-[500px] sm:w-[400px]"
+              className="h-[450px] w-[300px] object-cover sm:h-[500px] sm:w-[400px]"
             />
             <div className="absolute top-[10%] px-8 text-foreground xl:space-y-2">
               <p className="text-xl font-semibold xl:text-3xl">MacBook Air</p>
@@ -289,11 +289,11 @@ export default function App() {
             </div>
           </div>
 
-          <div className="relative min-w-fit cursor-pointer">
+          <div className="relative min-w-fit cursor-pointer overflow-hidden rounded-2xl shadow-md transition-all duration-300 hover:scale-[1.02] hover:shadow-lg">
             <img
               src="/ipad-air.jpeg"
               alt="Iphone 16 Pro"
-              className="h-[450px] w-[300px] rounded-2xl object-cover shadow-md transition-all duration-300 hover:scale-[1.02] hover:shadow-lg sm:h-[500px] sm:w-[400px]"
+              className="h-[450px] w-[300px] object-cover sm:h-[500px] sm:w-[400px]"
             />
             <div className="absolute top-[10%] px-8 text-foreground xl:space-y-2">
               <p className="text-xl font-semibold xl:text-3xl">iPad Air</p>
@@ -302,11 +302,11 @@ export default function App() {
             </div>
           </div>
 
-          <div className="relative min-w-fit cursor-pointer">
+          <div className="relative min-w-fit cursor-pointer overflow-hidden rounded-2xl shadow-md transition-all duration-300 hover:scale-[1.02] hover:shadow-lg">
             <img
               src="/macbook-pro.jpeg"
               alt="Iphone 16 Pro"
-              className="h-[450px] w-[300px] rounded-2xl object-cover shadow-md transition-all duration-300 hover:scale-[1.02] hover:shadow-lg sm:h-[500px] sm:w-[400px]"
+              className="h-[450px] w-[300px] object-cover sm:h-[500px] sm:w-[400px]"
             />
             <div className="absolute top-[10%] px-8 text-foreground xl:space-y-2">
               <p className="text-xl font-semibold xl:text-3xl">Macbook Pro</p>
@@ -319,11 +319,11 @@ export default function App() {
             </div>
           </div>
 
-          <div className="relative min-w-fit cursor-pointer">
+          <div className="relative min-w-fit cursor-pointer overflow-hidden rounded-2xl shadow-md transition-all duration-300 hover:scale-[1.02] hover:shadow-lg">
             <img
               src="/ipad-pro.jpeg"
               alt="Iphone 16 Pro"
-              className="h-[450px] w-[300px] rounded-2xl object-cover shadow-md transition-all duration-300 hover:scale-[1.02] hover:shadow-lg sm:h-[500px] sm:w-[400px]"
+              className="h-[450px] w-[300px] object-cover sm:h-[500px] sm:w-[400px]"
             />
             <div className="absolute top-[10%] px-8 text-background xl:space-y-2">
               <p className="text-xl font-semibold xl:text-3xl">iPad Pro</p>
@@ -342,11 +342,11 @@ export default function App() {
         </p>
 
         <div className="scrollbar-hide flex gap-4 overflow-x-auto p-4 pb-8 sm:gap-6 sm:p-8 xl:pl-32 xl:pr-24">
-          <div className="relative min-w-fit cursor-pointer">
+          <div className="relative min-w-fit cursor-pointer overflow-hidden rounded-2xl transition-all duration-300 hover:scale-[1.02] hover:shadow-lg">
             <img
               src="/specialist.jpeg"
               alt="Iphone 16 Pro"
-              className="h-[450px] w-[300px] rounded-2xl object-cover shadow-md transition-all duration-300 hover:scale-[1.02] hover:shadow-lg sm:h-[500px] sm:w-[520px]"
+              className="h-[450px] w-[300px] object-cover shadow-md sm:h-[500px] sm:w-[520px]"
             />
             <div className="absolute top-[5%] px-8 text-foreground xl:space-y-2">
               <p className="mb-2 text-sm uppercase text-muted-foreground">
@@ -358,11 +358,11 @@ export default function App() {
             </div>
           </div>
 
-          <div className="relative min-w-fit cursor-pointer">
+          <div className="relative min-w-fit cursor-pointer overflow-hidden rounded-xl transition-all duration-300 hover:scale-[1.02] hover:shadow-lg">
             <img
               src="/specialist-video.jpeg"
               alt="Iphone 16 Pro"
-              className="h-[450px] w-[300px] rounded-2xl object-cover shadow-md transition-all duration-300 hover:scale-[1.02] hover:shadow-lg sm:h-[500px] sm:w-[520px]"
+              className="h-[450px] w-[300px] object-cover shadow-md sm:h-[500px] sm:w-[520px]"
             />
             <div className="absolute top-[5%] px-8 text-foreground xl:space-y-2">
               <p className="mb-2 text-sm uppercase text-muted-foreground">
@@ -377,11 +377,11 @@ export default function App() {
             </div>
           </div>
 
-          <div className="relative min-w-fit cursor-pointer">
+          <div className="relative min-w-fit cursor-pointer overflow-hidden rounded-2xl transition-all duration-300 hover:scale-[1.02] hover:shadow-lg">
             <img
               src="/store-session.jpeg"
               alt="Iphone 16 Pro"
-              className="h-[450px] w-[300px] rounded-2xl object-cover shadow-md transition-all duration-300 hover:scale-[1.02] hover:shadow-lg sm:h-[500px] sm:w-[520px]"
+              className="h-[450px] w-[300px] object-cover shadow-md sm:h-[500px] sm:w-[520px]"
             />
             <div className="absolute top-[5%] px-8 text-foreground xl:space-y-2">
               <p className="mb-2 text-sm uppercase text-muted-foreground">
@@ -397,11 +397,11 @@ export default function App() {
             </div>
           </div>
 
-          <div className="relative min-w-fit cursor-pointer">
+          <div className="relative min-w-fit cursor-pointer overflow-hidden rounded-2xl shadow-md transition-all duration-300 hover:scale-[1.02] hover:shadow-lg">
             <img
               src="/personal-setup.jpeg"
               alt="Iphone 16 Pro"
-              className="h-[450px] w-[300px] rounded-2xl object-cover shadow-md transition-all duration-300 hover:scale-[1.02] hover:shadow-lg sm:h-[500px] sm:w-[520px]"
+              className="h-[450px] w-[300px] object-cover sm:h-[500px] sm:w-[520px]"
             />
             <div className="absolute top-[5%] px-8 text-foreground xl:space-y-2">
               <p className="mb-2 text-sm uppercase text-muted-foreground">
@@ -417,11 +417,11 @@ export default function App() {
             </div>
           </div>
 
-          <div className="relative min-w-fit cursor-pointer">
+          <div className="relative min-w-fit cursor-pointer overflow-hidden rounded-2xl transition-all duration-300 hover:scale-[1.02] hover:shadow-lg">
             <img
               src="/genius-bar.jpeg"
               alt="Iphone 16 Pro"
-              className="h-[450px] w-[300px] rounded-2xl object-cover shadow-md transition-all duration-300 hover:scale-[1.02] hover:shadow-lg sm:h-[500px] sm:w-[520px]"
+              className="h-[450px] w-[300px] object-cover shadow-md sm:h-[500px] sm:w-[520px]"
             />
             <div className="absolute top-[5%] px-8 text-foreground xl:space-y-2">
               <p className="mb-2 text-sm uppercase text-muted-foreground">
@@ -516,11 +516,11 @@ export default function App() {
         </p>
 
         <div className="scrollbar-hide flex gap-4 overflow-x-auto p-4 pb-8 sm:gap-6 sm:p-8 xl:pl-32 xl:pr-24">
-          <div className="relative min-w-fit cursor-pointer transition-all duration-300 hover:scale-[1.02] hover:shadow-lg">
+          <div className="relative min-w-fit cursor-pointer overflow-hidden rounded-2xl transition-all duration-300 hover:scale-[1.02] hover:shadow-lg">
             <img
               src="/accessories.jpeg"
               alt="Accessories"
-              className="h-[450px] w-[300px] rounded-2xl object-cover shadow-md sm:h-[500px] sm:w-[400px]"
+              className="h-[450px] w-[300px] object-cover shadow-md sm:h-[500px] sm:w-[400px]"
             />
             <div className="absolute top-[5%] px-8 text-foreground xl:space-y-2">
               <p className="text-xl font-semibold sm:text-3xl">
@@ -653,11 +653,11 @@ export default function App() {
             </div>
           </div>
 
-          <div className="relative min-w-fit cursor-pointer transition-all duration-300 hover:scale-[1.02] hover:shadow-lg">
+          <div className="relative min-w-fit cursor-pointer overflow-hidden rounded-2xl transition-all duration-300 hover:scale-[1.02] hover:shadow-lg">
             <img
               src="/accessories-explore.jpeg"
               alt="Accessories"
-              className="h-[450px] w-[300px] rounded-2xl object-cover shadow-md sm:h-[500px] sm:w-[400px]"
+              className="h-[450px] w-[300px] object-cover shadow-md sm:h-[500px] sm:w-[400px]"
             />
             <div className="absolute top-[10%] px-8 text-foreground xl:space-y-2">
               <p className="text-xl font-semibold sm:text-3xl">
