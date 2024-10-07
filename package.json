@@ -1,5 +1,5 @@
 {
-  "name": "0003-google-analytics-tag-manager",
+  "name": "google-analytics-tag-manager",
   "private": true,
   "version": "0.1.1",
   "type": "module",
@@ -16,6 +16,7 @@
     "lucide-react": "^0.447.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2",
     "tailwind-merge": "^2.5.3",
     "tailwindcss-animate": "^1.0.7"
   },
