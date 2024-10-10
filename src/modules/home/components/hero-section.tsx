@@ -53,95 +53,80 @@ export default function HeroSection() {
       </div>
 
       <div className="scrollbar-hide flex gap-2 overflow-x-auto p-4 pb-10 sm:gap-6 sm:px-8 sm:pb-20 xl:pl-32">
-        <div className="flex min-w-fit flex-col items-center gap-4">
-          <img src="/mac.png" alt="mac" className="h-20 cursor-pointer" />
-          <p className="font-semibold hover:cursor-pointer hover:underline">
-            Mac
-          </p>
-        </div>
-
-        <div className="flex min-w-fit flex-col items-center gap-4">
-          <img src="/iphone.png" alt="mac" className="h-20 cursor-pointer" />
-          <p className="font-semibold hover:cursor-pointer hover:underline">
-            iPhone
-          </p>
-        </div>
-
-        <div className="flex min-w-fit flex-col items-center gap-4">
-          <img src="/iPad.png" alt="mac" className="h-20 cursor-pointer" />
-          <p className="font-semibold hover:cursor-pointer hover:underline">
-            iPad
-          </p>
-        </div>
-
-        <div className="flex min-w-fit flex-col items-center gap-4">
-          <img src="/watch.png" alt="mac" className="h-20 cursor-pointer" />
-          <p className="font-semibold hover:cursor-pointer hover:underline">
-            Apple Watch
-          </p>
-        </div>
-
-        <div className="flex min-w-fit flex-col items-center gap-4">
-          <img
-            src="/vision-pro.png"
-            alt="mac"
-            className="h-20 cursor-pointer"
-          />
-          <p className="font-semibold hover:cursor-pointer hover:underline">
-            Apple Vision Pro
-          </p>
-        </div>
-
-        <div className="flex min-w-fit flex-col items-center gap-4">
-          <img src="/airpods.png" alt="mac" className="h-20 cursor-pointer" />
-          <p className="font-semibold hover:cursor-pointer hover:underline">
-            AirPods
-          </p>
-        </div>
-
-        <div className="flex min-w-fit flex-col items-center gap-4">
-          <img src="/airtags.png" alt="mac" className="h-20 cursor-pointer" />
-          <p className="font-semibold hover:cursor-pointer hover:underline">
-            AirTag
-          </p>
-        </div>
-
-        <div className="flex min-w-fit flex-col items-center gap-4">
-          <img src="/appletv.png" alt="mac" className="h-20 cursor-pointer" />
-          <p className="font-semibold hover:cursor-pointer hover:underline">
-            Apple TV 4K
-          </p>
-        </div>
-
-        <div className="flex min-w-fit flex-col items-center gap-4">
-          <img src="/homepod.png" alt="mac" className="h-20 cursor-pointer" />
-          <p className="font-semibold hover:cursor-pointer hover:underline">
-            HomePod
-          </p>
-        </div>
-
-        <div className="flex min-w-fit flex-col items-center gap-4">
-          <img
-            src="/accessories.png"
-            alt="mac"
-            className="h-20 cursor-pointer"
-          />
-          <p className="font-semibold hover:cursor-pointer hover:underline">
-            Accessories
-          </p>
-        </div>
-
-        <div className="flex min-w-fit flex-col items-center gap-4">
-          <img
-            src="/holiday-giftcards.png"
-            alt="mac"
-            className="h-20 cursor-pointer"
-          />
-          <p className="font-semibold hover:cursor-pointer hover:underline">
-            Apple Gift Card
-          </p>
-        </div>
+        {productsArr.map((product) => (
+          <div
+            key={product.name}
+            className="flex min-w-fit flex-col items-center gap-4"
+          >
+            <img
+              src={product.imgSrc}
+              alt={product.name}
+              className="h-20 cursor-pointer"
+            />
+            <p className="font-semibold hover:cursor-pointer hover:underline">
+              {product.name}
+            </p>
+          </div>
+        ))}
       </div>
     </section>
   );
 }
+
+const productsArr = [
+  {
+    name: "Mac",
+    imgSrc: "/mac.png",
+    link: "/",
+  },
+  {
+    name: "iPhone",
+    imgSrc: "/iphone.png",
+    link: "/",
+  },
+  {
+    name: "iPad",
+    imgSrc: "/iPad.png",
+    link: "/",
+  },
+  {
+    name: "Apple Watch",
+    imgSrc: "/watch.png",
+    link: "/",
+  },
+  {
+    name: "Apple Vision Pro",
+    imgSrc: "/vision-pro.png",
+    link: "/",
+  },
+  {
+    name: "AirPods",
+    imgSrc: "/airpods.png",
+    link: "/",
+  },
+  {
+    name: "AirTags",
+    imgSrc: "/airtags.png",
+    link: "/",
+  },
+  {
+    name: "Apple TV 4K",
+    imgSrc: "/appletv.png",
+    link: "/",
+  },
+  {
+    name: "HomePod",
+    imgSrc: "/homepod.png",
+    link: "/",
+  },
+  {
+    name: "Accessories",
+    imgSrc: "/accessories.png",
+    link: "/",
+  },
+  {
+    name: "Apple Gift Card",
+    imgSrc: "/holiday-giftcards.png",
+    link: "/",
+  },
+];
